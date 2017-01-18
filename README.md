@@ -13,3 +13,4 @@ A Twitter clone implemented with Django.
 
 ## Troubleshooting
 * Django does not recognized by Python: try Python3 instead. 
+* Heroku/Gunicorn logs using '''heroku logs -app <app_name>''': https://devcenter.heroku.com/categories/command-line
