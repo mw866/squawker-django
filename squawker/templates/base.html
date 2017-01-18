@@ -1,9 +1,24 @@
 <!doctype html>
 <head>
     <meta charset="utf-8">
-    <title>mw866-squawker</title>
+    <title>Squawker</title>
+    {% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'squawker/bootstrap.css' %}" />
+
 </head>
 <body>
-    <h1>Squawker by mw866</h1>
-    {% block body %}{% endblock %}
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">Squawker by Chris Wang</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class="active"><a href="#">Home</a></li>
+	      <li><a href="/admin">Admin</a></li>
+	      <li><a href="https://github.com/mw866/twitter_clone">Github</a></li>
+	    </ul>
+	  </div>
+	</nav>
+	
+	{% block body %}{% endblock %}
 </body>
