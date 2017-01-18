@@ -25,7 +25,7 @@ SECRET_KEY = 'luzt^-#3)ysz%tktm#&j@$8=uy89_)!&y=i78$^$1*%9u6-4a5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1']
 
 
 # Application definition
@@ -80,6 +80,14 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# Update database configuration with $DATABASE_URL.
+# https://devcenter.heroku.com/articles/django-app-configuration#migrating-an-existing-django-project
+
+import dj_database_url
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
+
 
 
 # Password validation

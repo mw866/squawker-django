@@ -4,6 +4,7 @@ A Twitter clone implemented with Django.
 ## References
 * Django Tutorial: https://docs.djangoproject.com/en/1.10/intro/
 * Bootstrap Tutorial: http://www.w3schools.com/bootstrap/default.asp
+* Deploy Djando projects on Heroku: https://devcenter.heroku.com/articles/django-app-configuration#migrating-an-existing-django-project
 
 ## Instructions
 * Run Django development server:
