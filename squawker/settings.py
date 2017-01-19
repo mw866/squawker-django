@@ -148,7 +148,11 @@ STATICFILES_DIRS = (
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-#Connect with Heroku Postgres
+#Persistent Postgres connection in Heroku 
 #https://devcenter.heroku.com/articles/heroku-postgresql#connecting-with-django
 # import dj_database_url
 # DATABASES['default'] =  dj_database_url.config()
+
+# Login Redirection Page
+#https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html
+LOGIN_REDIRECT_URL = '/'
