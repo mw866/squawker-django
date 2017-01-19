@@ -6,6 +6,7 @@ A Twitter clone implemented with Django.
 * Bootstrap Tutorial: http://www.w3schools.com/bootstrap/default.asp
 * Deploy Djando projects on Heroku: https://devcenter.heroku.com/articles/django-app-configuration#migrating-an-existing-django-project
 * Setup Django for Postgres: https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/optional_postgresql_installation/
+* Provision Postgres on Heroku: https://devcenter.heroku.com/articles/getting-started-with-python#provision-a-database
 
 
 ## Instructions
