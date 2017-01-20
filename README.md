@@ -8,7 +8,7 @@ A Twitter clone implemented with Django.
 * Setup Django for Postgres: https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/optional_postgresql_installation/
 * Provision Postgres on Heroku: https://devcenter.heroku.com/articles/getting-started-with-python#provision-a-database
 * Tutorial on Django's Built-in Login System: https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html
-
+* Failproof Django Favicons: http://staticfiles.productiondjango.com/blog/failproof-favicons/
 ## Instructions
 * Run Django development server:
 ** Visiting NOT from localhost, run 'python manage.py runserver'

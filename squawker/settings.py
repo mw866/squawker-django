@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'luzt^-#3)ysz%tktm#&j@$8=uy89_)!&y=i78$^$1*%9u6-4a5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = FALSE
+DEBUG = True
 
 ALLOWED_HOSTS = ['mw866-squawker.herokuapp.com', '127.0.0.1', 'squawker.chriswang.tech']
 
