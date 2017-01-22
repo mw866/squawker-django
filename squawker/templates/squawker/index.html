@@ -11,11 +11,12 @@
 </div>
 
 <div class="container">
-    <div>
-        <h2> Your Squawks history {{ context }}  </h2>
-    </div>
+<div class="panel panel-default">
+      <div class="panel-heading">Your Squawks history {{ context }}</div>
 
-    <div class="comments-list">
+<div class="panel-body"></div>
+
+<!--     <div class="comments-list"> -->
         {% for squawk in squawks %} 
         <p class="pull-right"><small>{{ squawk.post_date }}</small></p>
         <div class="media">
@@ -23,6 +24,8 @@
             <h3 class="media-heading">Anonymous User</h3>
             <p>{{ squawk.post_text }}</p>
         </div>
+              
+<!--     </div> -->
         <!--   <div class="media-right">
             <img src="img_avatar1.png" class="media-object" style="width:60px">
         </div> -->
